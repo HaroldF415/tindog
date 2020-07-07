@@ -1,0 +1,150 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  line-height: 1.5
+}
+
+#title, #cta {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+#press, #testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+#footer, #features {
+  background-color: #ffffff;
+}
+
+#features, #cta, .carousel-item, .container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 1.5% 15% 7%;
+}
+
+/******************************************** Navigation Bar ********************************************/
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/******************************************** Download Buttons ********************************************/
+.btn-download {
+  margin: 5% 10% 5% 0;
+}
+
+/******************************************** Tittle Image ********************************************/
+.title-image {
+  position: absolute;
+  right: 10%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/******************************************** Features ********************************************/
+#features {
+  position: relative;
+}
+
+#features .container-fluid {
+  padding: 1.5% 2% 7%;
+}
+
+.feat-h3 {
+  font-size: 1.5rem;
+}
+
+.feat-info {
+  color: #8f8f8f;
+}
+
+.fa-feat {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-feat:hover {
+  color: #ff4c68;
+}
+
+/******************************************** Testimonials ********************************************/
+.testimonial-image {
+  border-radius: 100%;
+  margin: 1rem;
+  width: 10%;
+}
+
+/******************************************** Press ********************************************/
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 1.25rem 1.25rem 3.125rem;
+  width: 15%;
+}
+
+/******************************************** Pricing  ********************************************/
+#pricing {
+  padding: 6.25rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-card-body-h2 {
+  font-size: 3rem;
+}
+
+/******************************************** Call To Action ********************************************/
+.btn-cta {
+  margin: 2% 3%;
+}
+
+/******************************************** Footer ********************************************/
+#footer {
+  margin: 2.5% 5%;
+}
+
+.social-icons {
+  margin: 0 1% 5%;
+}
+
+.footer-copyright {
+  font-size: 0.75rem;
+}
+
+/******************************************** Media Queries ********************************************/
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
